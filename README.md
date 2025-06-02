@@ -231,7 +231,11 @@ end
 
 
 
+intsall flameshot, sudo apt install flameshot
 ## custom shortcuts
+Name: Flameshot
+command: flameshot gui
+shortcut: super + shift + s
 ### windows
 - close window: alt + 4
 ### navigation
