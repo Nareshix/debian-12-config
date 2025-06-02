@@ -1,4 +1,4 @@
-# linux-config
+# debian-12-config
 
 git
 anki
@@ -9,36 +9,10 @@ vscode
 chrome
 youtube music
 
-cpc command
-1. create a file named cpc and place the contents in it
-```python
-#!/usr/bin/env python3
-import subprocess
-import sys
-
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: cpc <filename>")
-        sys.exit(1)
-    filename = sys.argv[1]
-    try:
-        with open(filename, "r") as f:
-            content = f.read()
-        subprocess.run(['wl-copy'], input=content.encode(), check=True)
-
-        print(f"Copied:\n{content}")
-    except FileNotFoundError:
-        print(f"File '{filename}' not found.")
-        sys.exit(1)
-    except Exception as e:
-        print(f"Error: {e}")
-        sys.exit(1)
-
-if __name__ == "__main__":
-    main()
+download (cpc)[https://github.com/Nareshix/cpc]
+```bash
+wget https://raw.githubusercontent.com/nareshix/cpc/main/cpc.sh -O ~/.local/bin/cpc && chmod +x ~/.local/bin/cpc
 ```
-2. chmod +x cpc
-3. mv cpc ~/.local/bin/
 
 ## ~/.config/kitty/kitty.conf
 ```
