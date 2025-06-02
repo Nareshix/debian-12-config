@@ -1,14 +1,5 @@
 # debian-12-config
 
-git
-anki
-mpv
-whatsapp
-fish
-vscode
-chrome
-youtube music
-
 download [cpc](https://github.com/Nareshix/cpc)
 ```bash
 wget https://raw.githubusercontent.com/nareshix/cpc/main/cpc.sh -O ~/.local/bin/cpc && chmod +x ~/.local/bin/cpc
@@ -248,5 +239,18 @@ end
 - switch app: super + tab
 - swtich windows: alt + tab
 - switch window of applicaton: super + `
-  
+
+## gnome tweaks
+### startup applicatoin:
+  -  chrome
+    
+## extension
+- blur my shell
+- clipboard indicator
+- dekstop icon (ding)
+- just perfection
+- no overview at startup
+- tiling assistant
+- wintile
+
 
