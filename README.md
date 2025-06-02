@@ -9,7 +9,7 @@ vscode
 chrome
 youtube music
 
-download (cpc)[https://github.com/Nareshix/cpc]
+download [cpc](https://github.com/Nareshix/cpc)
 ```bash
 wget https://raw.githubusercontent.com/nareshix/cpc/main/cpc.sh -O ~/.local/bin/cpc && chmod +x ~/.local/bin/cpc
 ```
