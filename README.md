@@ -5,6 +5,9 @@ download [cpc](https://github.com/Nareshix/cpc)
 wget https://raw.githubusercontent.com/nareshix/cpc/main/cpc.sh -O ~/.local/bin/cpc && chmod +x ~/.local/bin/cpc
 ```
 
+# workspace only alt tab
+```gsettings set org.gnome.shell.app-switcher current-workspace-only true```
+
 ## ~/.config/kitty/kitty.conf
 ```
 # themes
