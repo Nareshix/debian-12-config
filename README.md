@@ -261,5 +261,6 @@ shortcut: super + shift + s
 - no overview at startup
 - tiling assistant
 - wintile
+- pano (use rarely but useful at times cuz of its clipboard for images feature)
 
 
