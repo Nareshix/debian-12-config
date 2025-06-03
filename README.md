@@ -6,7 +6,9 @@ wget https://raw.githubusercontent.com/nareshix/cpc/main/cpc.sh -O ~/.local/bin/
 ```
 
 # workspace only alt tab
-```gsettings set org.gnome.shell.app-switcher current-workspace-only true```
+```
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
+```
 
 ## ~/.config/kitty/kitty.conf
 ```
