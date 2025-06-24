@@ -262,5 +262,6 @@ shortcut: super + shift + s
 - tiling assistant
 - wintile
 - pano (use rarely but useful at times cuz of its clipboard for images feature)
+- unite
 
 
